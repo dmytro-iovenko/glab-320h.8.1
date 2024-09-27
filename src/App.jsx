@@ -12,7 +12,8 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/currencies" element={<Currencies />} />
         <Route path="/price" element={<Price />} />
-      </Routes>
+        <Route path="/price/:symbol" element={<Price/>}/>
+        </Routes>
     </div>
   );
 }

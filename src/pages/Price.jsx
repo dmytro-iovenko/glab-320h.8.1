@@ -1,3 +1,3 @@
 export default function Price() {
-    return <p>Price page boilerplate</p>
+    return <p>Price component boilerplate</p>
 }
